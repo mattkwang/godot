@@ -391,7 +391,6 @@ public class GodotIO {
 		mAudioThread = new Thread(new Runnable() {
 			public void run() {
 				mAudioTrack.play();
-				GodotLib.audio();
 			}
 		});
 
